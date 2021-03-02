@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header
+{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url(hex.jpg);
+    background-size: cover;
+      
+}
+
+nav{
+    display: flex;
+    padding: 20px 10px;
+}
+
+h1{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(bgheader.jpg);
+    text-align: left;
+    color:cornflowerblue;
+    font-size: 30px;     
+    padding: 13px 50px;
+    text-shadow: 10px 4px 10px black;
+}
+
+nav ul{
+    
+    background-image:url(bri.jpg);
+    flex: 1;
+    text-align: right;
+    font-family: sans-serif;
+}
+nav ul li{
+    color: cornsilk;
+    display: inline-block;
+    padding: 23px 40px;
+    
+}
+nav ul li:hover{
+    background-color:#34363b;
+    transition: 0.5s;
+    
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+.video-player{
+    width: 60%;
+    position: absolute;
+    left: 25%;
+    top: 20%;
+    
+  
+}
+ nav ul li {
+    color: white;
+}
