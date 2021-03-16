@@ -41,6 +41,7 @@ nav ul li{
 nav ul li:hover{
     background-color:#34363b;
     transition: 0.5s;
+    zoom: 110%;
     
 }
 ::-webkit-scrollbar{
